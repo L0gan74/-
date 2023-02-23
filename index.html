@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav-top">
+          <div class="nav-top__links">
+            <ul>
+              <li><a href="#">Партнерам</a></li>
+              <li><a href="#">Как оплатить</a></li>
+              <li><a href="#">Схема проезда</a></li>
+              <li><a href="#">Как забронировать гномер</a></li>
+            </ul>
+            <a href="#">+7 (978) 205-27-55</a>
+          </div>
+        </nav>
+      </div>
+      <nav class="nav-bottom">
+        <div class="container">
+          <div class="nav-bottom__full">
+            <img class="logo" src="./img/Logo.svg" alt="img" />
+            <ul>
+              <li><a href="#">Главная</a></li>
+              <li><a href="#">Номера</a></li>
+              <li><a href="#">Контакты</a></li>
+              <li><a href="#">Отзывы</a></li>
+              <li><a href="#">Новости и акции</a></li>
+            </ul>
+            <button type="button">Обратный звонок</button>
+            <div class="hamb__field" id="hamb">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar">
+        <div class="navbar__wrap">
+          <ul class="menu" id="menu">
+            <li><a href="#">Партнерам</a></li>
+            <li><a href="#">Как оплатить</a></li>
+            <li><a href="#">Схема проезда</a></li>
+            <li><a href="#">Как забронировать гномер</a></li>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Номера</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Отзывы</a></li>
+            <li><a href="#">Новости и акции</a></li>
+            <li><a href="#">+7 (978) 205-27-55</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="popup" id="popup"></div>
+    <main class="main">
+      <section class="recreation container">
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="swiper-slide__item">
+                    <h1>Отдых в Приветном</h1>
+                    <p>
+                      Место, которое славится своими изумительными винами, и
+                      чистейшим песчаным пляжем с мелкой галькой – это курорт
+                      Приветное
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide__item">
+                    <h1>Отдых в Приветном</h1>
+                    <p>
+                      Место, которое славится своими изумительными винами, и
+                      чистейшим песчаным пляжем с мелкой галькой – это курорт
+                      Приветное
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-slide__item">
+                    <h1>Отдых в Приветном</h1>
+                    <p>
+                      Место, которое славится своими изумительными винами, и
+                      чистейшим песчаным пляжем с мелкой галькой – это курорт
+                      Приветное
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="recreation-item">
+              <span></span>
+              <p>Благородный отдых в Крыму</p>
+            </div>
+            <div class="recreation-item">
+              <span></span>
+              <p>Климат - лечебный фактор курортной зоны</p>
+            </div>
+            <div class="recreation-item">
+              <span></span>
+              <p>Богатый растительный и природный мир</p>
+            </div>
+          </div>
+        </div>
+        <div class="form">
+          <div class="row">
+            <div class="col-lg-7">
+              <form class="form-book">
+                <h2>Забронировать номер</h2>
+                <input type="text" placeholder="Имя" required />
+                <input type="tel" placeholder="Телефон" required />
+                <button class="form-book__btn" type="submit">
+                  Забронировать номер
+                </button>
+              </form>
+            </div>
+            <div class="col-lg-5">
+              <img class="form-img" src="./img/formMap.jpg" alt="img" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="room">
+        <div class="container">
+          <h3 class="room-top">Номера</h3>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="room-item">
+                <img src="./img/room_1.png" alt="img" />
+                <p class="name">Лоу Дуплекс</p>
+                <p class="price">ОТ 2200 РУБ. ЗА НОМЕР</p>
+                <button type="button">Забронировать</button>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="room-item">
+                <img src="./img/room_2.png" alt="img" />
+                <p class="name">БЛОК 2+2</p>
+                <p class="price">ОТ 1800 РУБ. ЗА НОМЕР</p>
+                <button type="button">Забронировать</button>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="room-item room-item__bottom">
+                <img src="./img/room_2.png" alt="img" />
+                <p class="name">БЛОК 2+2</p>
+                <p class="price">ОТ 1800 РУБ. ЗА НОМЕР</p>
+                <button type="button">Забронировать</button>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="room-item room-item__bottom">
+                <img src="./img/room_2.png" alt="img" />
+                <p class="name">БЛОК 2+2</p>
+                <p class="price">ОТ 1800 РУБ. ЗА НОМЕР</p>
+                <button type="button">Забронировать</button>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="room-item room-item__bottom">
+                <img src="./img/room_2.png" alt="img" />
+                <p class="name">БЛОК 2+2</p>
+                <p class="price">ОТ 1800 РУБ. ЗА НОМЕР</p>
+                <button type="button">Забронировать</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="description">
+        <div class="container">
+          <h3>Отдых в Приветном - отдых в Крыму между Судаком и Алуштой.</h3>
+          <div class="description-item">
+            <div class="row">
+              <div class="col-lg-8">
+                <div class="description-item__text">
+                  <p>
+                    Место, которое славится своими изумительными винами, и
+                    чистейшим песчаным пляжем с мелкой галькой – это курорт
+                    Приветное. Именно здесь расположилась гостиница «Новая
+                    Крепость», двери которой всегда открыты для постояльцев.
+                  </p>
+                  <p>
+                    Каждый с нетерпением ждет того дня, когда можно будет
+                    отдохнуть от каждодневных хлопот и насладиться ласковым
+                    солнцем на берегу моря. Отдых в Крыму – это не только
+                    потрясающая возможность удалиться от городской рутины и
+                    зарядиться положительной энергетикой, но и наполнить свой
+                    организм здоровьем.
+                  </p>
+                  <p>
+                    Ведь всем известно, что эта местность славится своим
+                    целебным воздухом и лечебными грязями, а также чистейшей
+                    морской водой. Помимо этого, вы сможете познакомиться с
+                    древнейшим прошлым полуострова, провести увлекательное и
+                    незабываемое путешествие в мир флоры и фауны.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <img class="desc-img" src="./img/description_1.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <h4 class="caption">
+            Одна из особенностей Крыма – его растительный и природный мир.
+          </h4>
+          <div class="description-item">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="description-item__img">
+                  <img src="./img/description_2.png" alt="img" />
+                  <img src="./img/description_3.png" alt="img" />
+                  <img src="./img/description_4.png" alt="img" />
+                  <img src="./img/description_5.png" alt="img" />
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="description-item__text">
+                  <p>
+                    Свойственными растениями для Крыма являются представители,
+                    для которых местом обитания стал южный склон Крымских гор.
+                    Причем эти растения произрастают только на полуострове,
+                    поэтому в другом месте вы их просто не увидите.
+                  </p>
+                  <p>
+                    Отдых в Судаке и других крымских курортах обязательно
+                    запомнится вам красотой дикого вечнозеленого рускуса и
+                    ладанника критского, а земляничное дерево удивит своими
+                    плодами. Также здесь растут и культурные растения, с
+                    которыми знакомы многие – лавр и кипарис. Не говоря уже о
+                    фундуке, ежевике и можжевельнике, которые являются истинными
+                    «жителями» Крыма. Так что здесь вам обязательно понравится!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h4 class="caption">Климат - лечебный фактор курортной зоны.</h4>
+          <div class="description-item">
+            <div class="row">
+              <div class="col-lg-8">
+                <div class="description-item__text">
+                  <p>
+                    Черное море и Крымские горы делают климат на полуострове
+                    наиболее благоприятным для здоровья. Теплый сезон
+                    продолжается полгода – с апреля по октябрь, а солнечных дней
+                    здесь гораздо больше, нежели пасмурных – более 285 дней в
+                    году. Летний сезон характеризуется теплым и умеренно влажным
+                    климатом, что позволяет чувствовать отдыхающим себя
+                    комфортно.
+                  </p>
+                  <p>
+                    Отдых в Крыму на Черном море порадует вас чистым воздухом,
+                    который освежается легким морским бризом. Самым прохладным
+                    является последний месяц зимы, но даже в этот период
+                    температура не опускается ниже отметки +2,90C, при этом
+                    температура воды составляет примерно +80C. А в июльские дни,
+                    которые считаются самыми теплыми, воздух прогревается до
+                    +28,30C. Сезон купания открывается в конце весны и
+                    продолжается вплоть до октября – в этот период в среднем
+                    температура воды около +17,50C. Любители поплавать в более
+                    теплом море предпочитают отдых в Алуште с июля по сентябрь,
+                    когда температурные показатели воды составляют +22-230C. Не
+                    стоит переживать по поводу штормов – это редкость для
+                    летнего периода, причем проходят они очень быстро.
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <img class="desc-img" src="./img/description_6.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="description-item">
+            <div class="row">
+              <div class="col-lg-8">
+                <div class="description-item__text">
+                  <p>
+                    Отдых, проведенный на побережье Крыма, благоприятно влияет
+                    на здоровье человека, ведь морская вода обладает целебными
+                    свойствами. Содержание в морской воде практически всех
+                    элементов, составляющих таблицу Менделеева, оказывают
+                    положительное воздействие на весь организм.
+                  </p>
+                  <p>
+                    К тому же, солевой состав воды в море и человеческой крови
+                    практически одинаковы. Во время купания в Черном море
+                    организм пополняет свой запас микроэлементов, которые просто
+                    необходимы для его нормального функционирования. Ведь цинк,
+                    марганец, фосфор, йод и медь проникают в организм через кожу
+                    человека.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h4 class="caption">
+            Приветное - недорогой отдых и море удовольствия.
+          </h4>
+          <div class="description-item">
+            <div class="row">
+              <div class="col-lg-8">
+                <div class="description-item__text">
+                  <p>
+                    Недалеко от морской линии, в 50 км на северо-восток от
+                    Алушты и в 30 км на запад от Судака, в широкой долине,
+                    окруженной горами, находится удивительное место. Поселок
+                    Приветное защищен от ветра горными хребтами Караби-Яйлы,
+                    поэтому курорт относится к средиземноморскому региону, где
+                    преобладает субтропический климат. Если вы любите тишину и
+                    спокойствие, тогда для вас это идеальное место!
+                  </p>
+                  <p>
+                    Прогулки по окрестностям поселка позволят насладиться
+                    незабываемой природой, а походы на гору Пастушья башня
+                    познакомят вас с историей местности, ведь здесь до сих пор
+                    сохранились древние сооружения и остатки защитных стен. При
+                    пересечении перевала в северном направлении перед вами
+                    откроется наиболее живописная горная дорога полуострова.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="description-bottom">
+            <div class="row">
+              <div class="col-lg-8">
+                <p>
+                  Приветное запомнится вам теплым солнцем, чистым морем, свежим
+                  воздухом и красивыми горами. Поэтому вы обязательно захотите
+                  вернуться сюда снова и еще не один раз!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="photo container">
+        <h3>Фото</h3>
+        <div class="slider">
+          <div class="swiper-button-next swiper-next-bottom"></div>
+          <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img class="photo-img" src="./img/photo_1.png" alt="img" />
+              </div>
+              <div class="swiper-slide">
+                <img class="photo-img" src="./img/photo_1.png" alt="img" />
+              </div>
+              <div class="swiper-slide">
+                <img class="photo-img" src="./img/photo_1.png" alt="img" />
+              </div>
+              <div class="swiper-slide">
+                <img class="photo-img" src="./img/photo_1.png" alt="img" />
+              </div>
+              <div class="swiper-slide">
+                <img class="photo-img" src="./img/photo_1.png" alt="img" />
+              </div>
+              <div class="swiper-slide">
+                <img class="photo-img" src="./img/photo_1.png" alt="img" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev swiper-prev-bottom"></div>
+        </div>
+      </section>
+      <section class="call">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <form class="form-book">
+                <h2>Забронировать номер</h2>
+                <input type="text" placeholder="Имя" required />
+                <input type="tel" placeholder="Телефон" required />
+                <button class="form-book__btn" type="submit">
+                  Забронировать номер
+                </button>
+              </form>
+            </div>
+            <div class="col-lg-5">
+              <img
+                class="call-img"
+                src="./img/Rectangle 94 (1).jpg"
+                alt="img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <img src="./img/Logo.svg" alt="img" />
+          <span>
+            <p>+7 (978) 205-27-55</p>
+            <p>+7 (978) 725-85-08</p>
+          </span>
+        </div>
+        <div class="social-network">
+          <a href="#">
+            <img src="./img/facebook.svg" alt="img" />
+          </a>
+          <a href="#">
+            <img src="./img/vk.svg" alt="img" />
+          </a>
+          <a href="#">
+            <img src="./img/odnk.svg" alt="img" />
+          </a>
+        </div>
+        <div class="footer-bottom">
+          <div class="row">
+            <div class="col-xl-3">
+              <div class="footer-bottom__txt">
+                <p>+7 (978) 205-27-55</p>
+                <p>nk-otel@mail.ru</p>
+                <p>Viber: +79787258508</p>
+              </div>
+            </div>
+            <div class="col-xl-3">
+              <div class="footer-bottom__address">
+                <h6>Адрес</h6>
+                <p>
+                  298521,Республика,Крым,г.Алушта, п.Приветное, ул.Парниковая 2
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-6">
+              <div class="footer-bottom__widget"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
